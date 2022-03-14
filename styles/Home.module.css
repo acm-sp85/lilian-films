@@ -1,5 +1,12 @@
 .container {
   padding: 0 2rem;
+  /* margin: auto; */
+  margin-bottom: 1px;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
 
 .main {
@@ -104,8 +111,11 @@
 }
 
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  padding-right: 500px;
+}
+
+.plainText {
+  color: white;
 }
 
 @media (max-width: 600px) {
