@@ -1,0 +1,67 @@
+$white: #f3f3f3;
+$background-color: #212121;
+
+.container {
+  background-color: $background-color;
+  &__1 {
+    height: 100vh;
+  }
+  &__2 {
+    height: 100vh;
+    // background-color: rgb(58, 58, 62);
+    background-image: url('../public/Natalie-Stuart.png');
+    background-size: cover;
+    &Logo {
+      // height: 100px;
+    }
+  }
+}
+
+.introCard {
+  position: absolute;
+
+  width: 60vw;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  &__logo {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  &__description {
+    color: $white;
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+  }
+
+  &__leyend {
+    color: $white;
+
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-bottom: 1px solid rgba($white, 0.1);
+  }
+  &__arrow {
+    color: white;
+    font-size: 10rem;
+    position: absolute;
+    left: 48%;
+    bottom: 0;
+    opacity: .1;
+  }
+}
+
+.productions {
+  height: 500px;
+  background-color: rgb(34, 56, 56);
+}
