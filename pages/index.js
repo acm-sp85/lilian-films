@@ -2,8 +2,30 @@ import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
-    <div>
-      <div className={styles.container__1}>
+    <div className={styles.container}>
+      <div className={styles.container__landing}>
+        <div className={styles.nav}>
+          <div className={styles.nav__logo}>
+            <a className={styles.navTitles}>LILIAN FILMS</a>
+          </div>
+
+          <div className={styles.nav__news}>
+            <a
+              className={styles.navTitles}
+              href="https://www.grainthemovie.com/news"
+            >
+              NEWS
+            </a>
+          </div>
+          <div className={styles.nav__about}>
+            <a
+              className={styles.navTitles}
+              href="https://www.grainthemovie.com/about"
+            >
+              ABOUT
+            </a>
+          </div>
+        </div>
         <div className={styles.introCard}>
           <img
             src="./lilian-logo.png"
@@ -11,10 +33,10 @@ export default function Home() {
             className={styles.introCard__logo}
           />
 
-          <h3 className={styles.introCard__description}>
+          <h3 className={`${styles.introCard__description} ${styles.h1}`}>
             Independent film production company based in Brooklyn, NY.
           </h3>
-          <h4 className={styles.introCard__leyend}>
+          <h4 className={`${styles.introCard__description} ${styles.h2}`}>
             Founded in 2016 by
             <a
               className={styles.introCard__link}
@@ -37,7 +59,7 @@ export default function Home() {
         </div>
         <div className={styles.introCard__arrow}>V</div>
       </div>
-      <div className={styles.container__2}>
+      <div className={styles.container__grain}>
         <a
           href="https://grainthemovie.com/"
           target="_blank"
@@ -46,7 +68,7 @@ export default function Home() {
           <img
             src="./GRAIN_grainthemovie.png"
             alt="grain-logo"
-            className={styles.container__2Logo}
+            className={styles.container__grain__logo}
           />
         </a>
       </div>

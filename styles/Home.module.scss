@@ -1,67 +1,73 @@
-$white: #f3f3f3;
-$background-color: #212121;
+@import 'typography';
+@import 'mediaQueries';
+
+.nav {
+  height: 75px;
+}
 
 .container {
-  background-color: $background-color;
-  &__1 {
-    height: 100vh;
-  }
-  &__2 {
-    height: 100vh;
-    // background-color: rgb(58, 58, 62);
-    background-image: url('../public/Natalie-Stuart.png');
-    background-size: cover;
-    &Logo {
-      // height: 100px;
-    }
-  }
+}
+
+.container__landing {
+  height: 100vh;
 }
 
 .introCard {
+  // margin: auto;
   position: absolute;
-
-  width: 60vw;
-  margin: 0 auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 
   &__logo {
-    display: inline-block;
-    margin: 0 auto;
+    width: 100%;
   }
 
   &__description {
-    color: $white;
-    letter-spacing: 3px;
-    font-size: 1.7rem;
-  }
-
-  &__leyend {
-    color: $white;
-
-    letter-spacing: 3px;
-    font-size: 1.2rem;
-  }
-
-  &__link {
-    text-decoration: none;
-    margin-left: 3px;
-    margin-right: 3px;
-    border-bottom: 1px solid rgba($white, 0.1);
-  }
-  &__arrow {
-    color: white;
-    font-size: 10rem;
-    position: absolute;
-    left: 48%;
-    bottom: 0;
-    opacity: .1;
+    text-align: center;
   }
 }
 
-.productions {
-  height: 500px;
-  background-color: rgb(34, 56, 56);
+.container__grain {
+  height: 100vh;
+  background-image: url('https://www.lilianfilms.com/_next/static/media/Natalie-Stuart.3c222784.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  &__logo {
+    width: 100vw;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.nav {
+  display: grid;
+
+  grid-template-columns: 70vw repeat(auto-fit, minmax(40px, 1fr));
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-columns: 30vw repeat(auto-fit, minmax(40px, 1fr));
+  }
+
+  height: 50px;
+  padding: 2rem;
+
+  &__logo {
+    align-self: center;
+    color: white;
+  }
+  &__news {
+    align-self: center;
+    text-align: right;
+    color: white;
+  }
+  &__about {
+    align-self: center;
+    text-align: right;
+    color: white;
+  }
 }
