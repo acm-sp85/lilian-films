@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(24, 24, 24);
+  letter-spacing: 0.5rem;
 }
 
 a {

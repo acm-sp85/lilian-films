@@ -26,16 +26,25 @@
   &__description {
     text-align: center;
   }
+
+  &__link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: underline;
+    text-decoration-color: rgba(190, 190, 190, 0.1);
+    -webkit-text-decoration-color: rgba(190, 190, 190, 0.1);
+    white-space: nowrap;
+  }
 }
 
 .container__grain {
   height: 100vh;
-  background-image: url('https://www.lilianfilms.com/_next/static/media/Natalie-Stuart.3c222784.png');
+  background-image: url('../public/Natalie-Stuart-lg.png');
   background-size: cover;
   background-attachment: fixed;
 
   &__logo {
-    width: 100vw;
+    width: 60vw;
     margin: auto;
     position: relative;
     top: 50%;
@@ -70,4 +79,9 @@
     text-align: right;
     color: white;
   }
+}
+
+.linkTest {
+  background-color: aqua;
+  height: 300px;
 }

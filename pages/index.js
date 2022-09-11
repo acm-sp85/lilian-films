@@ -33,10 +33,10 @@ export default function Home() {
             className={styles.introCard__logo}
           />
 
-          <h3 className={`${styles.introCard__description} ${styles.h1}`}>
+          <h1 className={`${styles.introCard__description} ${styles.h1}`}>
             Independent film production company based in Brooklyn, NY
-          </h3>
-          <h4 className={`${styles.introCard__description} ${styles.h2}`}>
+          </h1>
+          <h2 className={`${styles.introCard__description} ${styles.h2}`}>
             Founded in 2016 by
             <a
               className={styles.introCard__link}
@@ -55,7 +55,7 @@ export default function Home() {
             >
               Tommaso Sacconi
             </a>
-          </h4>
+          </h2>
         </div>
         <div className={styles.introCard__arrow}>V</div>
       </div>
