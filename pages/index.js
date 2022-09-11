@@ -34,7 +34,7 @@ export default function Home() {
           />
 
           <h3 className={`${styles.introCard__description} ${styles.h1}`}>
-            Independent film production company based in Brooklyn, NY.
+            Independent film production company based in Brooklyn, NY
           </h3>
           <h4 className={`${styles.introCard__description} ${styles.h2}`}>
             Founded in 2016 by
@@ -53,7 +53,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Tommaso Sacconi.
+              Tommaso Sacconi
             </a>
           </h4>
         </div>
