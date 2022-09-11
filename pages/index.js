@@ -34,21 +34,24 @@ export default function Home() {
           />
 
           <h1 className={`${styles.introCard__description} ${styles.h1}`}>
-            Independent film production company based in Brooklyn, NY
+            Independent production company based in Brooklyn, NY
           </h1>
           <h2 className={`${styles.introCard__description} ${styles.h2}`}>
             Founded in 2016 by
             <a
-              className={styles.introCard__link}
+              className={styles.introCard__link__alex}
               href="http://alexcontell.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <br />
               Alex Contell
             </a>
+            <br />
             and
+            <br />
             <a
-              className={styles.introCard__link}
+              className={styles.introCard__link__tom}
               href="https://www.tommasosacconi.com/"
               target="_blank"
               rel="noopener noreferrer"

@@ -5,7 +5,7 @@
 }
 
 html {
-  // font-size: 62.5% !important;
+  // font-size: 62.5% !important; -> Having some issues using this as reference, using 8px below as a workaround
   font-size: 8px !important;
 }
 
@@ -13,8 +13,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  // background-color: rgb(24, 24, 24);
-  background-color: rgb(40, 13, 13);
+  background-color: rgb(24, 24, 24);
+  // background-color: rgb(40, 13, 13);
   letter-spacing: 0.5rem;
 }
 

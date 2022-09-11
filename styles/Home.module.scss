@@ -19,6 +19,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+  @media only screen and (max-width: $bp-small) {
+    width: 300px;
+  }
+
   &__logo {
     width: 100%;
   }
@@ -33,7 +37,13 @@
     text-decoration: underline;
     text-decoration-color: rgba(190, 190, 190, 0.1);
     -webkit-text-decoration-color: rgba(190, 190, 190, 0.1);
-    white-space: nowrap;
+
+    &__alex {
+      white-space: nowrap;
+    }
+    &__tom {
+      white-space: nowrap;
+    }
   }
 }
 
@@ -42,6 +52,10 @@
   background-image: url('../public/Natalie-Stuart-lg.png');
   background-size: cover;
   background-attachment: fixed;
+  @media only screen and (max-width: $bp-small) {
+    background-image: url('../public/Natalie-Stuart-sm.png');
+    background-position: 60%;
+  }
 
   &__logo {
     width: 60vw;
