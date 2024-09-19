@@ -45,11 +45,9 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <br />
-              Alex Contell
+              Alex Contell&nbsp;
             </a>
-            <br />
-            and
-            <br />
+            and&nbsp;
             <a
               className={styles.introCard__link__tom}
               href="https://www.tommasosacconi.com/"
