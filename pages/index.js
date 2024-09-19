@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -61,6 +62,43 @@ export default function Home() {
         <div className={styles.introCard__arrow}>V</div>
       </div>
       <div className={styles.container__grain}>
+        <div className={styles.container__grain__laurea}>
+          <img
+            src="./Laurea-1.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-2.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-3.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-4.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-5.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-6.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+          <img
+            src="./Laurea-7.png"
+            alt="grain-logo"
+            className={styles.container__grain__laurea__logos}
+          />
+        </div>
         <a
           href="https://grainthemovie.com/"
           target="_blank"

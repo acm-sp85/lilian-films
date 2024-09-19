@@ -61,9 +61,35 @@
     width: 50vw;
     margin: auto;
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media only screen and (max-width: $bp-small) {
+      top: 30%;
+    }
+  }
+  &__laurea {
+    margin: auto;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    @media only screen and (max-width: $bp-small) {
+      top: 57%;
+      left: 20%;
+      max-width: 40%;
+    }
+
+    &__logos {
+      max-width: 100px;
+      // padding-left: 20px;
+      @media only screen and (max-width: $bp-small) {
+        max-width: 40px;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+    }
   }
 }
 
