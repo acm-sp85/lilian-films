@@ -52,6 +52,7 @@
   background-image: url('../public/Natalie-Stuart-lg.png');
   background-size: cover;
   background-attachment: fixed;
+
   @media only screen and (max-width: $bp-small) {
     background-image: url('../public/Natalie-Stuart-sm.png');
     background-position: 60%;
