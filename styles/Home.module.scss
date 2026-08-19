@@ -1,5 +1,5 @@
-@import 'typography';
-@import 'mediaQueries';
+@use 'typography';
+@use 'mediaQueries' as mq;
 
 .nav {
   height: 75px;
@@ -19,7 +19,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: mq.$bp-small) {
     width: 300px;
   }
 
@@ -53,7 +53,7 @@
   background-size: cover;
   background-attachment: fixed;
 
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: mq.$bp-small) {
     background-image: url('../public/Natalie-Stuart-sm.png');
     background-position: 60%;
   }
@@ -65,7 +65,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: mq.$bp-small) {
       top: 30%;
     }
   }
@@ -76,7 +76,7 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: mq.$bp-small) {
       top: 57%;
       left: 20%;
       max-width: 40%;
@@ -85,7 +85,7 @@
     &__logos {
       max-width: 100px;
       // padding-left: 20px;
-      @media only screen and (max-width: $bp-small) {
+      @media only screen and (max-width: mq.$bp-small) {
         max-width: 40px;
         margin-right: 5px;
         margin-left: 5px;
@@ -99,7 +99,7 @@
 
   grid-template-columns: 70vw repeat(auto-fit, minmax(40px, 1fr));
 
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: mq.$bp-small) {
     grid-template-columns: 30vw repeat(auto-fit, minmax(40px, 1fr));
   }
 

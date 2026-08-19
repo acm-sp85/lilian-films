@@ -41,7 +41,7 @@ export default function Home() {
             Founded in 2016 by
             <a
               className={styles.introCard__link__alex}
-              href="http://alexcontell.com"
+              href="https://alexcontell.com"
               target="_blank"
               rel="noopener noreferrer"
             >
